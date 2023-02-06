@@ -27,6 +27,11 @@ pipeline {
                 echo "Hello World for develop branch"
             }
         }
+	       stage('New_stage') {
+            steps {
+                echo "Hello World for develop branch"
+            }
+        }
 	   /* stage('Deploy') {
             steps {
                sshagent(['tomcat_server']) {
