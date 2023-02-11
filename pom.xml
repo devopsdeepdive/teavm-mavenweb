@@ -39,7 +39,21 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
-
+<distributionManagement>
+	
+	    <repository>
+	      <id>jfrog</id>
+	      <name>devopsdeepdive Releases Nexus Repository</name>
+          <url>https://devospdeepdive.jfrog.io/artifactory/libs-release</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>devopsdeepdive Snapshot Nexus Repository </name>
+          <url>https://devospdeepdive.jfrog.io/artifactory/libs-snapshot</url>
+	    </snapshotRepository>
+	    
+</distributionManagement>
   <build>
     <plugins>
       <!-- Configure Java compiler to use Java 8 syntax  -->
