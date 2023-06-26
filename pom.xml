@@ -4,7 +4,7 @@
 
   <groupId>com.src</groupId>
   <artifactId>teavm-maven-webapp</artifactId>
-  <version>2.0-RELEASE</version>
+  <version>2.3-RELEASE</version>
 
   <packaging>war</packaging>
     <name>maven-web-application</name>
